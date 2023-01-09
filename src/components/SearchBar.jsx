@@ -20,9 +20,9 @@ const SearchBar = ({ searchTerm, setSearchTerm }) => {
         <input
           type="text"
           onChange={(e) => setSearchTerm(e.target.value)}
-          placeholder="Search"
+          placeholder="Developed by Subham Mishra"
           value={searchTerm}
-          className="p-2 w-full text-xl bg-white outline-none"
+          className="p-2 px-3 w-full text-base md:text-xl bg-white outline-none"
         />
       </form>
     </div>

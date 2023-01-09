@@ -9,6 +9,7 @@ const Home = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [isFetching, setIsFetching] = useState(false);
   const [posts, setPosts] = useState([]);
+  
   useEffect(() => {
     setIsFetching(true);
     fetchPost()
@@ -33,7 +34,7 @@ const Home = () => {
     >
       <div className="w-full  bg-white h-screen  ">
         <div className="flex relative justify-center flex-row">
-          <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
+          <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm}  />
 
           <div className="mt-12 sm:mt-14 px-5">
             <p className="text-sm align-middle text-center text-gray-500 tracking-wide">

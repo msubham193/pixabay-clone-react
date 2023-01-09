@@ -8,6 +8,7 @@ const Navbar = () => {
         {" "}
         <h1 className="tracking-widest font-bold text-2xl">Pixabay</h1>
       </Link>
+      
     </div>
   );
 };
