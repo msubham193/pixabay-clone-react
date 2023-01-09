@@ -44,7 +44,7 @@ Start the server
 
 ## Demo
 
-https://app.netlify.com/sites/stalwart-narwhal-88f46f/overview
+https://stalwart-narwhal-88f46f.netlify.app/
 
 
 ## Documentation
