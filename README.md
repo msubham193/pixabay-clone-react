@@ -44,7 +44,7 @@ Start the server
 
 ## Demo
 
-https://transcendent-sherbet-e474ad.netlify.app
+https://startling-mooncake-82a44a.netlify.app/
 
 
 ## Documentation
